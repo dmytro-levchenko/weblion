@@ -2,7 +2,7 @@
 
 return array(
     'host' => 'localhost',
-    'dbname' => 'myblog_db',
-    'user' => 'admin',
-    'password' => 'admin',            
+    'dbname' => 'weblion_db',
+    'user' => 'weblion',
+    'password' => 'weblion',            
 );

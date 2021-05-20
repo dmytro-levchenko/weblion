@@ -27,42 +27,7 @@
             <!-- end div#menu -->
             <div id="page">
                 <div id="page-bgtop">
-                    <div id="content">
-                        
-                        <?php foreach ($newsList as $newsItem):?>
-                            <div class="post">
-                                <h2 class="title"><a href="/news/<?php echo $newsItem['id'];?>"><?php echo $newsItem['title'];?></a></h2>
-                                <p class="byline"><?php echo $newsItem['date'];?></p>
-                                <div class="entry">
-                                    <p><?php echo $newsItem['short_content'];?></p>
-                                </div>
-                                <div class="meta">
-                                    <p class="links"><a href="/news/<?php echo $newsItem['id'];?>" class="comments">Read more</a></p>
-                                </div>
-                            </div>
-                        <?php endforeach;?>
-
-                        
-                    </div>
-                    <!-- end div#content -->
-                    <div id="sidebar">
-                        <ul>
-                            <li>
-                                <h2 class="categories">Lorem Ipsum</h2>
-                                <ul>
-                                    <li><a href="#">Fusce dui neque fringilla</a></li>
-                                    <li><a href="#">Eget tempor eget nonummy</a></li>
-                                    <li><a href="#">Magna lacus bibendum mauris</a></li>
-                                    <li><a href="#">Nec metus sed donec</a></li>
-                                    <li><a href="#">Magna lacus bibendum mauris</a></li>
-                                    <li><a href="#">Velit semper nisi molestie</a></li>
-                                    <li><a href="#">Eget tempor eget nonummy</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- end div#sidebar -->
-                    <div style="clear: both; height: 1px"></div>
+                    <p>ffdfdfds</p>
                 </div>
             </div>
             <!-- end div#page -->

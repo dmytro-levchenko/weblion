@@ -24,8 +24,8 @@ class Router
     {
         // Получить строку запроса
         $uri = $this->getURI();
-        if ($uri != 'myshop') {
-            $uri = substr($uri, 7);
+        if ($uri != 'weblion') {
+            $uri = substr($uri, 8);
         }
 
         // Проверить наличие такого запроса в routes.php
@@ -60,7 +60,7 @@ class Router
                 $result = call_user_func_array(array($controllerObject, $actionName), $parameters); 
                 
                 if ($result != null) {
-                    break;
+                    break; 
                 }
             }
         }
